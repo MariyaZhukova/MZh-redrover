@@ -1,0 +1,92 @@
+div {
+    height: 50px;
+       border: 1px solid #000;
+}
+span {
+    color: red;
+}
+
+
+img[alt="phone"] {
+border: 4px solid green;
+   width: 300px;
+}
+.heading {
+    color: forestgreen;
+    background-color: #ccc;
+        font-size: 20px;
+    text-align: center; 
+}
+.blue {
+  color: blue;
+       background: url(img/images.jpg) center;
+   
+    
+    }
+.list {
+    list-style-type: none;
+}
+.list li {
+    width: 70px;
+    height: 25;
+    border: 1px solid #000;
+    
+}
+.list + h3 {
+    color: purple;
+}
+.menu li a:hover {
+    color: red
+}
+.menu li a:active {
+    color: green
+}
+
+.menu li {
+    width: 100px;
+    height: 40px;
+    list-style-type: none;
+    border: 1px solid #000;
+    text-align: center;
+        text-justify: auto;
+    
+}
+.menu li:first-child {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 50px;
+}
+.menu li:last-child {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.menu li:nth-child(2n) {
+    background-color: #ccc;
+}
+.menu li:nth-child(3) a {
+    color: orange;
+}
+.list li:nth-child(3):after {
+    content: "new";
+    color: blueviolet;
+    text-transform: uppercase;
+}
+.menu li:hover:after {
+    content: ">>";
+    color: red;
+}
+.blue:first-letter {
+    font-size: 30px;
+    color: brown;
+}
+table {
+    border: 1px solid #000;
+    width: 400px;
+    height: 100px;
+}
+td {
+   border: 1px solid #000;  
+}
+tr {
+   border: 1px solid #000;  
+}
